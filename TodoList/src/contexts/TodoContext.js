@@ -13,7 +13,7 @@ export const TodoContext = createContext({
     ],
     //todo will be the input msg and subsequent function is invoked
     addTodo: (todo) => {} ,
-    updatedTodo: (id,todo) => {},
+    updateTodo: (id,todo) => {},
     deleteTodo: (id) => {},
     toggleComplete: (id) => {}
 })
