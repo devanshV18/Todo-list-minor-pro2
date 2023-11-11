@@ -6,7 +6,7 @@ export const TodoContext = createContext({
         {
             id:1,
             todo: "todo msg",
-            completed: flase
+            completed: false,
         },
         //there will be multiple and basically all todos here with the above structure accessible for usag eby functionalities and componenets`
         
